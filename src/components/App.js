@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       {/* <p>Enter your name:</p> */}
-      <input type="text" value={para} onClick={about}></input>
+      <input type="text" value={para} onChange={about}></input>
       <p>Hello {para}!</p>
     </div>
   )
